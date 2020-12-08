@@ -1,6 +1,9 @@
 module Api
   module V1
     class ReviewsController < ApplicationController
+      # To deal with ActionController::InvalidAuthenticityToken error
+      protect_from_forgery with: :null_session
+
       def create
         review = Review.new(review_params)
 
