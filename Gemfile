@@ -44,3 +44,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# JSON API(jsonapi.org) serializer that works with rails and can be used to serialize any kind of ruby objects
+gem 'fast_jsonapi', '~> 1.5'
