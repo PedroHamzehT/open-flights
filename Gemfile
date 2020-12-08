@@ -47,3 +47,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # JSON API(jsonapi.org) serializer that works with rails and can be used to serialize any kind of ruby objects
 gem 'fast_jsonapi', '~> 1.5'
+
+# RuboCop is a Ruby code style checking and code formatting tool. It aims to enforce the community-driven Ruby Style Guide.
+gem 'rubocop', '~> 1.5', '>= 1.5.2'
