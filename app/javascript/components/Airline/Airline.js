@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import Header from './Header'
+import ReviewForm from './ReviewForm'
 import styled from 'styled-components'
 
 const Wrapper = styled.div`
@@ -58,7 +59,7 @@ const Airline = (props) => {
         </Main>
       </Column>
       <Column>
-        <div className="review-form">Review form goes here.</div>
+        <ReviewForm/>
       </Column>
     </Wrapper>
   )

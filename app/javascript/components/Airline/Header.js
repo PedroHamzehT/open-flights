@@ -10,6 +10,7 @@ const Wrapper = styled.div`
     width: 60px;
     border-radius: 100%;
     border: 1px solid rgba(0,0,0,0.1);
+    margin-bottom: -8px
   }
 `
 
